@@ -32,7 +32,7 @@ public class ImdbTests {
         driver.findElement(By.id("navbar-query")).sendKeys("blade runner");
         driver.findElement(By.id("navbar-submit-button")).click();
         driver.findElement(By.linkText("Blade Runner")).click();
-        assertEquals("Blade Runner (1982) - IMDb", driver.getTitle());
+        assertEquals("sdfsdfsBlade Runner (1982) - IMDb", driver.getTitle());
     }
 
     @After
